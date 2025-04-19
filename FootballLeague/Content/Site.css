@@ -1,0 +1,241 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+    /* ----- BOLINHA STATUS -------- */
+
+.status-circle {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+    .status-circle.green {
+        background-color: green;
+    }
+
+    .status-circle.red {
+        background-color: red;
+    }
+
+.status-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.status-true {
+    background-color: green;
+}
+
+.status-false {
+    background-color: red;
+}
+
+/* ---------- INDEX TABLE --------------- */
+
+.table-centered {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    .table-centered tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .table-centered th {
+        background-color: #f1f1f1;
+        font-weight: bold;
+        border-bottom: 2px solid #ddd;
+    }
+    .table-centered th,
+    .table-centered td {
+        text-align: center;
+        vertical-align: middle;
+        padding: 10px;
+    }
+
+/* ------- CREATE E EDIT ------------ */
+
+.form-card {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+    .form-card h4 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btn-create, .btn-back {
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+.btn-create {
+    background-color: #28a745;
+}
+
+    .btn-create:hover {
+        background-color: #218838;
+    }
+
+.btn-back {
+    background-color: #6c757d;
+}
+
+    .btn-back:hover {
+        background-color: #5a6268;
+    }
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+    .btn-success:hover {
+        background-color: #218838;
+    }
+
+/* ----- EDITAR E DELETAR ------ */
+
+.details-card {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+    .details-card h4 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.dl-horizontal dt {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.dl-horizontal dd {
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.details-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btn-back {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #6c757d;
+}
+
+    .btn-back:hover {
+        background-color: #5a6268;
+    }
+
+.btn-edit {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+}
+
+    .btn-edit:hover {
+        background-color: #0056b3;
+    }
+
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+    .btn-delete:hover {
+        background-color: #c82333;
+    }
+
+/* ------ TABELA CLASSIFICAÇÃO ------- */
+
+.libertadores {
+    background-color: #d4edda; /* Verde claro */
+}
+
+.sulamericana {
+    background-color: #d1ecf1; /* Azul claro */
+}
+
+.rebaixamento {
+    background-color: #f8d7da; /* Vermelho claro */
+}
+
+.table th, .table td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: center;
+}

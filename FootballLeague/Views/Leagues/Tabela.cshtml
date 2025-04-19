@@ -1,0 +1,54 @@
+@model IEnumerable<FootballLeague.Models.LeagueStanding>
+
+@{
+    ViewBag.Title = "Classificação - " + ViewBag.NomeLiga;
+}
+
+<h2>@ViewBag.Title</h2>
+
+<table class="table table-bordered table-striped table-hover">
+    <tr>
+        <th>#</th>
+        <th>Time</th>
+        <th>Pts</th>
+        <th>Vit</th>
+        <th>Emp</th>
+        <th>Der</th>
+        <th>GP</th>
+        <th>GC</th>
+        <th>SG</th>
+    </tr>
+
+    @for (int i = 0; i < Model.Count(); i++)
+    {
+        var item = Model.ElementAt(i);
+        var posicao = i + 1;
+        string classeLinha = "";
+
+        if (posicao <= 6)
+        {
+            classeLinha = "libertadores";
+        }
+        else if (posicao <= 12)
+        {
+            classeLinha = "sulamericana";
+        }
+        else if (posicao >= 17)
+        {
+            classeLinha = "rebaixamento";
+        }
+
+        <tr class="@classeLinha">
+            <td>@posicao</td>
+            <td>@item.Time.Name</td>
+            <td>@item.Points</td>
+            <td>@item.Victories</td>
+            <td>@item.Draw</td>
+            <td>@item.Defeats</td>
+            <td>@item.GolsFor</td>
+            <td>@item.GolsAgainst</td>
+            <td>@item.GolsDifference</td>
+        </tr>
+    }
+
+</table>

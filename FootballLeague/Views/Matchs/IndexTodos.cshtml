@@ -1,0 +1,44 @@
+﻿@model List<FootballLeague.Models.Match>
+
+@{
+    ViewBag.Title = "Jogos Filtrados";
+}
+
+@Html.Partial("_FiltroParcial", new { rodadaAtual = 1 }) <!-- Passa 1 só pra manter o hidden -->
+
+<h2>Jogos Encontrados</h2>
+
+@if (Model.Any())
+{
+    <table class="table table-bordered text-center align-middle">
+        <thead>
+            <tr>
+                <th>Mandante</th>
+                <th></th>
+                <th>X</th>
+                <th></th>
+                <th>Visitante</th>
+                <th>Data</th>
+                <th>Estádio</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var jogo in Model)
+            {
+                <tr>
+                    <td>@jogo.HomeTeam.Name</td>
+                    <td>@(jogo.HomeGoals?.ToString() ?? "")</td>
+                    <td>X</td>
+                    <td>@(jogo.AwayGoals?.ToString() ?? "")</td>
+                    <td>@jogo.AwayTeam.Name</td>
+                    <td>@jogo.MatchDate.ToString("dd/MM/yyyy")</td>
+                    <td>@jogo.Stadium</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Nenhum jogo encontrado com os filtros aplicados.</p>
+}

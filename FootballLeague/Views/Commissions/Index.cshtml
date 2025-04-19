@@ -1,0 +1,89 @@
+﻿@model IEnumerable<FootballLeague.Models.Commission>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+<h2>Index</h2>
+
+<div style="margin-bottom: 20px;">
+    <a href="@Url.Action("Create")" class="btn btn-success">
+        <i class="fas fa-plus"></i> Novo Técnico
+    </a>
+</div>
+
+<form asp-action="Index" method="get" style="display: flex; gap: 16px; align-items: flex-end; flex-wrap: wrap; margin-bottom: 20px;">
+    <div style="display: flex; flex-direction: column;">
+        <label for="searchName">Nome</label>
+        <input type="text" id="searchName" name="searchName" value="@ViewBag.SearchName" style="padding: 6px; width: 180px;" />
+    </div>
+
+    <div style="display: flex; flex-direction: column;">
+        <label for="function">Função</label>
+        <select id="function" name="function" style="padding: 6px; width: 180px;">
+            <option value="">Todas</option>
+            @foreach (var item in Enum.GetValues(typeof(FootballLeague.Models.Function)))
+            {
+                <option value="@item" @(ViewBag.SelectedFunction?.ToString() == item.ToString() ? "selected" : "")>@item</option>
+            }
+        </select>
+    </div>
+
+    <div style="display: flex; flex-direction: column;">
+        <label>&nbsp;</label>
+        <button type="submit" class="btn btn-primary btn-block">Pesquisar</button>
+    </div>
+</form>
+
+<table class="table table-centered">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.Name)</th>
+
+        <th>@Html.DisplayNameFor(model => model.Function)</th>
+
+        <th>@Html.DisplayNameFor(model => model.BirthDate)</th>
+
+        <th>@Html.DisplayNameFor(model => model.Team)</th>
+
+        <th>Ações</th>
+    </tr>
+
+    @if (!Model.Any())
+    {
+        <tr>
+            <td colspan="5" style="text-align: center; font-style: italic; color: #999;">
+                Nenhum membro da comissão encontrado.
+            </td>
+        </tr>
+    }
+    else
+    {
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+
+                <td>@Html.DisplayFor(modelItem => item.Function)</td>
+
+                <td>@Html.DisplayFor(modelItem => item.BirthDate)</td>
+
+                <td>@Html.DisplayFor(modelItem => item.Team.Name)</td>
+
+                <td>
+                    <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-sm btn-primary" title="Editar">
+                        <i class="fas fa-edit"></i>
+                    </a>
+                    <a href="@Url.Action("Details", new { id = item.Id })" class="btn btn-sm btn-info" title="Detalhes">
+                        <i class="fas fa-info-circle"></i>
+                    </a>
+                    <a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-sm btn-danger" title="Excluir">
+                        <i class="fas fa-trash-alt"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    }
+</table>

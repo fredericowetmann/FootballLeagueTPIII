@@ -1,0 +1,38 @@
+﻿@model FootballLeague.Models.Commission
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h3>Você tem certeza que quer deletar esse Técnico?</h3>
+
+<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+<h2 style="text-align: center;">Detalhes</h2>
+
+<div class="form-card">
+    <h4>@Model.Name</h4>
+    <dl class="dl-horizontal">
+
+        <dt>@Html.DisplayNameFor(model => model.Name)</dt>
+        <dd>@Html.DisplayFor(model => model.Name)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Function)</dt>
+        <dd>@Html.DisplayFor(model => model.Function)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.BirthDate)</dt>
+        <dd>@Html.DisplayFor(model => model.BirthDate)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Team)</dt>
+        <dd>@Html.DisplayFor(model => model.Team.Name)</dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="details-buttons">
+            @Html.ActionLink("← Voltar", "Index", null, new { @class = "btn btn-back" })
+            <button type="submit" class="btn btn-delete">Deletar</button>
+        </div>
+    }
+</div>

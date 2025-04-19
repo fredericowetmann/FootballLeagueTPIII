@@ -1,0 +1,89 @@
+﻿@model FootballLeague.Models.Round
+
+@Html.Partial("_FiltroParcial", new { rodadaAtual = ViewBag.RodadaNumero })
+
+
+@{
+    ViewBag.Title = "Rodada " + ViewBag.RodadaNumero;
+    int rodadaAtual = ViewBag.RodadaNumero ?? 1;
+    int totalRodadas = ViewBag.TotalRodadas ?? 1;
+    bool verTodos = ViewBag.VerTodos ?? false;
+}
+
+<h2>@(verTodos ? "Todos os Jogos" : "Rodada " + rodadaAtual)</h2>
+
+<div class="d-flex gap-2 mb-3">
+    @using (Html.BeginForm("SimularRodada", "Matchs", FormMethod.Post, new { @class = "mb-0" }))
+    {
+        @Html.Hidden("numeroRodada", (int)ViewBag.RodadaNumero)
+        @Html.Hidden("leagueId", (int)ViewBag.LeagueId)
+        <button type="submit" class="btn btn-success">Simular Rodada</button>
+    }
+
+    @if (Model.LeagueId != null)
+    {
+        <a href="@Url.Action("Tabela", "Leagues", new { id = Model.LeagueId })" class="btn btn-primary">
+            Ver Tabela da Liga
+        </a>
+    }
+</div>
+
+@if (Model != null && Model.Matches != null && Model.Matches.Any())
+{
+
+    <table class="table table-bordered text-center align-middle">
+        <thead>
+            <tr>
+                <th>Mandante</th>
+                <th></th> <!-- Gols Mandante -->
+                <th>X</th>
+                <th></th> <!-- Gols Visitante -->
+                <th>Visitante</th>
+                <th>Data</th>
+                <th>Estádio</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var jogo in Model.Matches)
+            {
+                <tr>
+                    <td>@jogo.HomeTeam.Name</td>
+
+                    <td class="bg-light rounded" style="width: 40px;">
+                        @(jogo.HomeGoals.HasValue ? jogo.HomeGoals.ToString() : "")
+                    </td>
+
+                    <td>X</td>
+
+                    <td class="bg-light rounded" style="width: 40px;">
+                        @(jogo.AwayGoals.HasValue ? jogo.AwayGoals.ToString() : "")
+                    </td>
+
+                    <td>@jogo.AwayTeam.Name</td>
+
+                    <td>@jogo.MatchDate.ToString("dd/MM/yyyy")</td>
+
+                    <td>@jogo.Stadium</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    if (!verTodos)
+    {
+        <div class="text-center mt-4">
+            <a class="btn btn-outline-primary mx-2 @(rodadaAtual <= 1 ? "disabled" : "")"
+               href="@Url.Action("Index", "Matchs", new { numeroRodada = rodadaAtual - 1 })">
+                ← Rodada Anterior
+            </a>
+            <a class="btn btn-outline-success mx-2 @(rodadaAtual >= totalRodadas ? "disabled" : "")"
+               href="@Url.Action("Index", "Matchs", new { numeroRodada = rodadaAtual + 1 })">
+                Próxima Rodada →
+            </a>
+        </div>
+    }
+}
+else
+{
+    <p class="text-muted">Nenhum jogo encontrado com os filtros selecionados.</p>
+}

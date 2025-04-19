@@ -1,0 +1,50 @@
+﻿@model FootballLeague.Models.Player
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h3>Você tem certeza que quer deletar esse Jogador?</h3>
+
+<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+<h2 style="text-align: center;">Detalhes</h2>
+
+<div class="form-card">
+    <h4>@Model.Name</h4>
+    <dl class="dl-horizontal">
+
+        <dt>@Html.DisplayNameFor(model => model.Nacionality)</dt>
+        <dd>@Html.DisplayFor(model => model.Nacionality)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.BirthDate)</dt>
+        <dd>@Html.DisplayFor(model => model.BirthDate)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Position)</dt>
+        <dd>@Html.DisplayFor(model => model.Position)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.ShirtNumber)</dt>
+        <dd>@Html.DisplayFor(model => model.ShirtNumber)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Height)</dt>
+        <dd>@Html.DisplayFor(model => model.Height)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Weight)</dt>
+        <dd>@Html.DisplayFor(model => model.Weight)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.MainFeet)</dt>
+        <dd>@Html.DisplayFor(model => model.MainFeet)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Team)</dt>
+        <dd>@Html.DisplayFor(model => model.Team.Name)</dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="details-buttons">
+            @Html.ActionLink("← Voltar", "Index", null, new { @class = "btn btn-back" })
+            <button type="submit" class="btn btn-delete">Deletar</button>
+        </div>
+    }
+</div>

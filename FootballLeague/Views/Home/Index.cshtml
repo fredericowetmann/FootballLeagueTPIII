@@ -1,0 +1,36 @@
+﻿@model IEnumerable<FootballLeague.Models.Team>
+
+<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+
+<h2>Liga Atual</h2>
+<div style="margin-bottom: 20px;">
+    <strong>Nome:</strong> @ViewBag.LeagueName <br />
+    <strong>Status:</strong>
+    <span class="status-indicator @(ViewBag.LeagueStatus ? "status-true" : "status-false")">
+    </span>
+</div>
+
+<h2>Times</h2>
+
+<table class="table table-centered">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Cidade</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var team in Model)
+        {
+            <tr>
+                <td>@team.Name</td>
+                <td>@team.City</td>
+                <td>
+                    <span class="status-indicator @(team.Status ? "status-true" : "status-false")"></span>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

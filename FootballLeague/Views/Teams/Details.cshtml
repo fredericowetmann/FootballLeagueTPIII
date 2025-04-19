@@ -1,0 +1,140 @@
+﻿@model FootballLeague.Models.Team
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+<h2 style="text-align: center;">Detalhes do Time</h2>
+
+<div class="details-card">
+    <h4>@Model.Name</h4>
+    <dl class="dl-horizontal">
+
+        <dt>@Html.DisplayNameFor(model => model.City)</dt>
+        <dd>@Html.DisplayFor(model => model.City)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Stadium)</dt>
+        <dd>@Html.DisplayFor(model => model.Stadium)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.FoundationYear)</dt>
+        <dd>@Html.DisplayFor(model => model.FoundationYear)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Stadium)</dt>
+        <dd>@Html.DisplayFor(model => model.Stadium)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.CapacityStadium)</dt>
+        <dd>@Html.DisplayFor(model => model.CapacityStadium)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.MainColors)</dt>
+        <dd>@Html.DisplayFor(model => model.MainColors)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.SecondaryColors)</dt>
+        <dd>@Html.DisplayFor(model => model.SecondaryColors)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Status)</dt>
+        <dd class="status-circle @(Model.Status ? "green" : "red")" title="@Model.StatusText"></dd>
+    </dl>
+    <h4 style="margin-top: 30px;">Jogadores</h4>
+    <div class="accordion" id="accordionPlayers">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingPlayers">
+                <button class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapsePlayers"
+                        aria-expanded="false"
+                        aria-controls="collapsePlayers">
+                    Ver jogadores do time (@Model.Players.Count())
+                </button>
+            </h2>
+            <div id="collapsePlayers"
+                 class="accordion-collapse collapse"
+                 aria-labelledby="headingPlayers"
+                 data-bs-parent="#accordionPlayers">
+                <div class="accordion-body">
+                    @if (Model.Players.Any())
+                    {
+                        <table class="table table-centered">
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>Posição</th>
+                                    <th>Número</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var player in Model.Players)
+                                {
+                                    <tr>
+                                        <td>@player.Name</td>
+                                        <td>@player.Position</td>
+                                        <td>@player.ShirtNumber</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                    else
+                    {
+                        <p>Nenhum jogador cadastrado para este time.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h4 style="margin-top: 30px;">Comissão Técnica</h4>
+    <div class="accordion" id="accordionCommission">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingCommission">
+                <button class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseCommission"
+                        aria-expanded="false"
+                        aria-controls="collapseCommission">
+                    Ver membros da comissão técnica (@Model.Coaches.Count())
+                </button>
+            </h2>
+            <div id="collapseCommission"
+                 class="accordion-collapse collapse"
+                 aria-labelledby="headingCommission"
+                 data-bs-parent="#accordionCommission">
+                <div class="accordion-body">
+                    @if (Model.Coaches != null && Model.Coaches.Any())
+                    {
+                        <table class="table table-centered">
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>Cargo</th>
+                                    <th>Data de Nascimento</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var member in Model.Coaches)
+                                {
+                                    <tr>
+                                        <td>@member.Name</td>
+                                        <td>@member.Function</td>
+                                        <td>@member.BirthDate.ToShortDateString()</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                    else
+                    {
+                        <p>Nenhum membro da comissão cadastrado para este time.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="details-buttons">
+        @Html.ActionLink("← Voltar", "Index", null, new { @class = "btn btn-back" })
+        @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-edit" })
+    </div>
+</div>

@@ -1,0 +1,29 @@
+﻿@model dynamic
+@{
+    int rodadaAtual = Model.rodadaAtual;
+}
+
+@using (Html.BeginForm("Index", "Matchs", FormMethod.Get))
+{
+    <div class="row mb-3">
+        @Html.Hidden("numeroRodada", rodadaAtual)
+
+        <div class="col-md-4">
+            <label>Filtrar por Time:</label>
+            @Html.DropDownList("timeId", ViewBag.Times as SelectList, "Todos os Times", new { @class = "form-control" })
+        </div>
+
+        <div class="col-md-4">
+            <label>Filtrar por Estádio:</label>
+            @Html.DropDownList("estadio", ViewBag.Estadios as SelectList, "Todos os Estádios", new { @class = "form-control" })
+        </div>
+
+        <div class="col-md-2 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary w-100">Aplicar Filtros</button>
+        </div>
+
+        <div class="col-md-2 d-flex align-items-end">
+            <a href="@Url.Action("Index", "Matchs", new { limpar = true })" class="btn btn-outline-secondary w-100">Limpar Filtros</a>
+        </div>
+    </div>
+}

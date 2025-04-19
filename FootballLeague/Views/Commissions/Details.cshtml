@@ -1,0 +1,31 @@
+﻿@model FootballLeague.Models.Commission
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+<h2 style="text-align: center;">Detalhes do Técnico</h2>
+
+<div class="details-card">
+    <h4>@Model.Name</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>@Html.DisplayNameFor(model => model.Name)</dt>
+        <dd>@Html.DisplayFor(model => model.Name)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Function)</dt>
+        <dd>@Html.DisplayFor(model => model.Function)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.BirthDate)</dt>
+        <dd>@Html.DisplayFor(model => model.BirthDate)</dd>
+
+        <dt>@Html.DisplayNameFor(model => model.Team)</dt>
+        <dd>@Html.DisplayFor(model => model.Team.Name)</dd>
+
+    </dl>
+    <div class="details-buttons">
+        @Html.ActionLink("← Voltar", "Index", null, new { @class = "btn btn-back" })
+        @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-edit" })
+    </div>
+</div>

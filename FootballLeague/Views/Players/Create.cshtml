@@ -1,0 +1,84 @@
+﻿@model FootballLeague.Models.Player
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2 style="text-align:center;">Criar Jogador</h2>
+<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-card">
+        <h4>Informações do Jogador</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name)
+            @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Nacionality)
+            @Html.TextBoxFor(model => model.Nacionality, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Nacionality, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.BirthDate)
+            @Html.EditorFor(model => model.BirthDate, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.BirthDate, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Position)
+            @Html.EnumDropDownListFor(model => model.Position, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Position, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ShirtNumber)
+            @Html.EditorFor(model => model.ShirtNumber, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.ShirtNumber, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Height)
+            @Html.EditorFor(model => model.Height, new { htmlAttributes = new { @class = "form-control", placeholder = "Ex: 1.75" } })
+            @Html.ValidationMessageFor(model => model.Height, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Weight)
+            @Html.EditorFor(model => model.Weight, new { htmlAttributes = new { @class = "form-control", placeholder = "Ex: 80.5" } })
+            @Html.ValidationMessageFor(model => model.Weight, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.MainFeet)
+            @Html.EnumDropDownListFor(model => model.MainFeet, "Selecione o pé dominante", htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.MainFeet, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.TeamId, "Time")
+            @Html.DropDownList("TeamId", null, "Selecione um time", htmlAttributes: new { @class = "form-control" })
+        </div>
+
+        <div class="form-buttons">
+            <a class="btn btn-secondary" href="@Url.Action("Index")">
+                <i class="fas fa-arrow-left"></i> Voltar
+            </a>
+            <input type="submit" value="Criar" class="btn btn-create" />
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

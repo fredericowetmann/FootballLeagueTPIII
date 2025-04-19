@@ -1,0 +1,767 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\leagues\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\leagues\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\leagues\\tabela.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\leagues\\tabela.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|c:\\users\\frederico.desktop-5sd4okk\\source\\repos\\footballleague\\footballleague\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\teams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\teams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\commissions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\commissions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\models\\commission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\models\\commission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\models\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\models\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\models\\decimalmodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\models\\decimalmodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\models\\round.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\models\\round.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\services\\serviceleague.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\services\\serviceleague.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\models\\league.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\models\\league.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\teams\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\teams\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\players\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\players\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\commissions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\commissions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\commissions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\commissions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\commissions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\commissions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\players\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\players\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\teams\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\teams\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\players\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\players\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|c:\\users\\frederico.desktop-5sd4okk\\source\\repos\\footballleague\\footballleague\\views\\matchs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\matchs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\controllers\\leaguescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\controllers\\leaguescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\controllers\\commissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\controllers\\commissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\controllers\\goalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\controllers\\goalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\teams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\teams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\controllers\\matchscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\controllers\\matchscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|c:\\users\\frederico.desktop-5sd4okk\\source\\repos\\footballleague\\footballleague\\views\\matchs\\indextodos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\matchs\\indextodos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\teams\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\teams\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\players\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\players\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\views\\commissions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\commissions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|c:\\users\\frederico.desktop-5sd4okk\\source\\repos\\footballleague\\footballleague\\views\\matchs\\_filtroparcial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\views\\matchs\\_filtroparcial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\data\\footballleaguecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\data\\footballleaguecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\models\\leaguestanding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\models\\leaguestanding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\footballleague\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0D5BBBC-1190-4831-94DC-35C59563CBD5}|FootballLeague\\FootballLeague.csproj|solutionrelative:footballleague\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Leagues\\Index.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Leagues\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Leagues\\Index.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Leagues\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T21:33:23.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Teams\\Index.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Teams\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Teams\\Index.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Teams\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:33:32.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tabela.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Leagues\\Tabela.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Leagues\\Tabela.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Leagues\\Tabela.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Leagues\\Tabela.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T21:07:36.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T01:01:38.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Content\\Site.css",
+              "RelativeDocumentMoniker": "FootballLeague\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Content\\Site.css",
+              "RelativeToolTip": "FootballLeague\\Content\\Site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-17T01:06:28.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Goal.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\Goal.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Models\\Goal.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\Goal.cs",
+              "RelativeToolTip": "FootballLeague\\Models\\Goal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:51:40.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Models\\Team.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\Team.cs",
+              "RelativeToolTip": "FootballLeague\\Models\\Team.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwC4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T00:52:13.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Commission.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\Commission.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Models\\Commission.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\Commission.cs",
+              "RelativeToolTip": "FootballLeague\\Models\\Commission.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T00:53:41.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\Player.cs",
+              "RelativeToolTip": "FootballLeague\\Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T00:53:07.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Round.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\Round.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Models\\Round.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\Round.cs",
+              "RelativeToolTip": "FootballLeague\\Models\\Round.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T21:47:30.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Commissions\\Index.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Commissions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Commissions\\Index.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Commissions\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T22:41:16.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "FootballLeague\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAL0DAAAAAAAAAAASwMsDAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:14:00.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ServiceLeague.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Services\\ServiceLeague.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Services\\ServiceLeague.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Services\\ServiceLeague.cs",
+              "RelativeToolTip": "FootballLeague\\Services\\ServiceLeague.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAswHcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T22:03:07.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DecimalModelBinder.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\DecimalModelBinder.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Models\\DecimalModelBinder.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\DecimalModelBinder.cs",
+              "RelativeToolTip": "FootballLeague\\Models\\DecimalModelBinder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:41:06.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Match.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\Match.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Models\\Match.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\Match.cs",
+              "RelativeToolTip": "FootballLeague\\Models\\Match.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:50:58.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "League.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\League.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Models\\League.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\League.cs",
+              "RelativeToolTip": "FootballLeague\\Models\\League.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T20:43:49.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Teams\\Delete.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Teams\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Teams\\Delete.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Teams\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:36:46.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Players\\Delete.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Players\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Players\\Delete.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Players\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:40:40.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Commissions\\Delete.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Commissions\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Commissions\\Delete.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Commissions\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:42:13.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Commissions\\Details.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Commissions\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Commissions\\Details.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Commissions\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:42:15.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Commissions\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Commissions\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Commissions\\Edit.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Commissions\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T22:40:05.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Players\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Players\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Players\\Edit.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Players\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T22:39:43.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Teams\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Teams\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Teams\\Edit.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Teams\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:34:41.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Players\\Details.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Players\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Players\\Details.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Players\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:41:26.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TeamsController.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Controllers\\TeamsController.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Controllers\\TeamsController.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Controllers\\TeamsController.cs",
+              "RelativeToolTip": "FootballLeague\\Controllers\\TeamsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T00:55:10.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PlayersController.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Controllers\\PlayersController.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Controllers\\PlayersController.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Controllers\\PlayersController.cs",
+              "RelativeToolTip": "FootballLeague\\Controllers\\PlayersController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T01:00:08.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LeaguesController.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Controllers\\LeaguesController.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Controllers\\LeaguesController.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Controllers\\LeaguesController.cs",
+              "RelativeToolTip": "FootballLeague\\Controllers\\LeaguesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T20:49:28.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CommissionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Controllers\\CommissionsController.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Controllers\\CommissionsController.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Controllers\\CommissionsController.cs",
+              "RelativeToolTip": "FootballLeague\\Controllers\\CommissionsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T01:00:44.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GoalsController.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Controllers\\GoalsController.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Controllers\\GoalsController.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Controllers\\GoalsController.cs",
+              "RelativeToolTip": "FootballLeague\\Controllers\\GoalsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T21:37:52.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FootballLeague\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:03:26.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IndexTodos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Matchs\\IndexTodos.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Matchs\\IndexTodos.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Matchs\\IndexTodos.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Matchs\\IndexTodos.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:35:20.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T01:00:55.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Players\\Index.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Players\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Players\\Index.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Players\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T18:03:45.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Matchs\\Index.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Matchs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Matchs\\Index.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Matchs\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T14:07:10.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MatchsController.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Controllers\\MatchsController.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Controllers\\MatchsController.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Controllers\\MatchsController.cs",
+              "RelativeToolTip": "FootballLeague\\Controllers\\MatchsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T21:37:34.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Teams\\Details.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Teams\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Teams\\Details.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Teams\\Details.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAGkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:35:53.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Teams\\Create.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Teams\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Teams\\Create.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Teams\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T01:37:22.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Players\\Create.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Players\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Players\\Create.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Players\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T18:10:42.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Commissions\\Create.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Commissions\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Commissions\\Create.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Commissions\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T22:40:00.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_FiltroParcial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Matchs\\_FiltroParcial.cshtml",
+              "RelativeDocumentMoniker": "FootballLeague\\Views\\Matchs\\_FiltroParcial.cshtml",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Views\\Matchs\\_FiltroParcial.cshtml",
+              "RelativeToolTip": "FootballLeague\\Views\\Matchs\\_FiltroParcial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T16:32:13.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FootballLeagueContext.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Data\\FootballLeagueContext.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Data\\FootballLeagueContext.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Data\\FootballLeagueContext.cs",
+              "RelativeToolTip": "FootballLeague\\Data\\FootballLeagueContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T20:47:17.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LeagueStanding.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\LeagueStanding.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Models\\LeagueStanding.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Models\\LeagueStanding.cs",
+              "RelativeToolTip": "FootballLeague\\Models\\LeagueStanding.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T20:43:23.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Web.config",
+              "RelativeDocumentMoniker": "FootballLeague\\Web.config",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Web.config",
+              "RelativeToolTip": "FootballLeague\\Web.config",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-15T20:02:41.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Global.asax.cs",
+              "RelativeDocumentMoniker": "FootballLeague\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\Frederico.DESKTOP-5SD4OKK\\source\\repos\\FootballLeague\\FootballLeague\\Global.asax.cs",
+              "RelativeToolTip": "FootballLeague\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:18:06.126Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
